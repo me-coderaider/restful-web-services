@@ -41,6 +41,15 @@
 		</dependency>
 
 		<!--
+		https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+			<version>3.3.1</version>
+		</dependency>
+
+
+		<!--
 		https://mvnrepository.com/artifact/org.springframework.hateoas/spring-hateoas -->
 		<dependency>
 			<groupId>org.springframework.hateoas</groupId>
@@ -87,7 +96,7 @@
 			<artifactId>jackson-dataformat-xml</artifactId>
 		</dependency>
 		-->
-<!-- 
+		<!-- 
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
